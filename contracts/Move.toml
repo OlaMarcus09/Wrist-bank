@@ -1,0 +1,9 @@
+[package]
+name = "wrist_bank"
+version = "0.1.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", rev = "mainnet", subdir = "crates/sui-framework/packages/sui-framework" }
+
+[addresses]
+wrist_bank = "0x0"
